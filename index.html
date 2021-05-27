@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DeFiesta</title>
 
+    <script src="https://kit.fontawesome.com/01d7b21854.js" crossorigin="anonymous"></script>
+
     <link rel="stylesheet" href="./assets/css/app.css">
 </head>
 <body>
@@ -13,22 +15,72 @@
 
     <header class="header">
         <div class="container">
-            <a href="/">
+            <a href="/" class="header__logo">
                 <img src="./assets/images/logo_defiesta.svg" alt="">
             </a>
-            <nav>
-                <a href="#">Proveedores</a>
-                <a href="#">Nosotros</a>
-                <a href="#">Blog</a>
-                <a href="#">Contacto</a>
+            <nav class="header__menu">
+                <div class="header__menu-dropdown">
+                    <a class="header__menu-item" href="#">Proveedores</a>
+                    <div class="dropdown__megamenu">
+                        <div class="dropdown__megamenu-wrapper">
+                            <div class="container">
+                                <a href="#">Banquetes</a>
+                                <a href="#">Bebidas y coctelería</a>
+                                <a href="#">Mesa de postres</a>
+                                <a href="#">Salones y jardines</a>
+                                <a href="#">Foto y video</a>
+                                <a href="#">Recuerdos</a>
+                                <a href="#">Invitaciones</a>
+                                <a href="#">Música / Dj</a>
+                                <a href="#">Luna de Miel</a>
+                                <a href="#">Flores y decoración</a>
+                                <a href="#">Belleza</a>
+                                <a href="#">Mesa de regalos</a>
+                                <a href="#">Wedding Planner</a>
+                                <a href="#">Ropa / Accesorios</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a class="header__menu-item" href="#">Blog</a>
+                <a class="header__menu-item" href="#">Contacto</a>
             </nav>
-            <div class="">
-                <a href="">User</a>
+            <div class="header__profile">
+                <a href="">
+                    <i class="fas fa-user"></i>
+                    Iniciar sesión
+                </a>
             </div>
         </div>
     </header>
 
     <main>
+
+        <section class="home">
+            <div class="home__banner">
+                <div class="home__banner-item"></div>
+            </div>
+        </section>
+
+        <section class="home__providers">
+            <h2>Dale un vistazo a nuestros proveedores</h2>
+            <div class="container">
+                <a class="home__providers-item" href="#">Banquetes</a>
+                <a class="home__providers-item" href="#">Bebidas y coctelería</a>
+                <a class="home__providers-item" href="#">Mesa de postres</a>
+                <a class="home__providers-item" href="#">Salones y jardines</a>
+                <a class="home__providers-item" href="#">Foto y video</a>
+                <a class="home__providers-item" href="#">Recuerdos</a>
+                <a class="home__providers-item" href="#">Invitaciones</a>
+                <a class="home__providers-item" href="#">Música / Dj</a>
+                <a class="home__providers-item" href="#">Luna de Miel</a>
+                <a class="home__providers-item" href="#">Flores y decoración</a>
+                <a class="home__providers-item" href="#">Belleza</a>
+                <a class="home__providers-item" href="#">Mesa de regalos</a>
+                <a class="home__providers-item" href="#">Wedding Planner</a>
+                <a class="home__providers-item" href="#">Ropa / Accesorios</a>
+            </div>
+        </section>
 
     </main>
 

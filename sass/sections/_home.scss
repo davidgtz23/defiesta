@@ -1,0 +1,41 @@
+.home{
+    &__banner{
+        &-item{
+            background-image: url('/assets/images/home/bg_banner.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: top center;
+            width: 100%;
+            height: $fullheight-without-header;
+        }
+    }
+
+    &__providers{
+        padding: 4rem 0;
+        h2{
+            text-align: center;
+            color: $purple;
+            margin-bottom: 2rem;
+        }
+        .container{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            max-width: 1280px;
+        }
+        &-item{
+            color: $gray;
+            border: solid 2px $gray;
+            border-radius: 1rem;
+            padding: 0.5rem 1.5rem;
+            text-decoration: none;
+            margin: 1rem;
+            transition: linear 0.2s;
+            &:hover{
+                background-color: $gray;
+                color: #fff;
+            }
+        }
+    }
+}
