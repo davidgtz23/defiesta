@@ -1,0 +1,31 @@
+.provider{
+    &__head{
+        padding: 2rem 0;
+        h1{
+            color: $purple;
+        }
+        &-filters{
+            select{
+                border: none;
+                border: solid 1px $lightgray;
+                border-radius: 0.5rem;
+                padding: 0.5rem 1rem;
+                width: 150px;
+                color: $gray;
+                margin-top: 0.5rem;
+            }
+        }
+    }
+    &__banner{
+        background-image: url('/assets/images/provider_banner.jpeg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: top center;
+        width: 100%;
+        height: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        
+    }
+}

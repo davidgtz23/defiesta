@@ -374,11 +374,14 @@ h1, h2, h3, h4, h5, h6 {
     padding: 0 2rem;
   }
 }
+.header {
+  border-bottom: solid 1px rgba(138, 157, 167, 0.45);
+}
 .header .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 8rem;
+  height: 6rem;
 }
 .header__logo img {
   width: 280px;
@@ -404,7 +407,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .header__menu-dropdown .dropdown__megamenu {
   position: absolute;
-  top: 5rem;
+  top: 3rem;
   left: 0;
   padding-top: 3rem;
   width: 100%;
@@ -672,6 +675,32 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 1rem;
     margin: 0.5rem 0.2rem;
   }
+}
+.provider__head {
+  padding: 2rem 0;
+}
+.provider__head h1 {
+  color: #8b009f;
+}
+.provider__head-filters select {
+  border: none;
+  border: solid 1px rgba(138, 157, 167, 0.45);
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  width: 150px;
+  color: #8a9da7;
+  margin-top: 0.5rem;
+}
+.provider__banner {
+  background-image: url("/assets/images/provider_banner.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
 }
 
 /*# sourceMappingURL=app.css.map */
