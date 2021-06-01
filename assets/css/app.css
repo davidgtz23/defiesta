@@ -434,9 +434,60 @@ h1, h2, h3, h4, h5, h6 {
 .header__menu-dropdown .dropdown__megamenu-wrapper .container a:not(:nth-child(3n+3)) {
   margin-bottom: 2rem;
 }
+.header__menu-dropdown .dropdown__megamenu-wrapper .container a:hover {
+  text-decoration: underline;
+}
 .header__menu-dropdown:hover .dropdown__megamenu {
   display: block;
 }
+.header__profile a {
+  text-decoration: none;
+  color: #8b009f;
+}
+.header__profile a i {
+  margin: 0 0.2rem;
+}
+
+.footer {
+  background-color: #eff3f5;
+  padding: 2rem 0;
+}
+.footer__menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  border-top: solid 1px #8b009f;
+  border-bottom: solid 1px #8b009f;
+  padding: 1rem 0;
+}
+.footer__menu-logo img {
+  width: 280px;
+  display: block;
+}
+.footer__menu-nav a {
+  text-decoration: none;
+  margin: 0 0.5rem;
+  color: #8b009f;
+}
+.footer__menu-rss a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  margin-left: 1rem;
+}
+.footer__legals {
+  margin-top: 1rem;
+}
+.footer__legals a {
+  margin-right: 1rem;
+  text-decoration: none;
+  color: #6a6f71;
+  font-size: 0.8rem;
+}
+.footer__legals a:hover {
+  text-decoration: none;
+}
+
 .home__banner-item {
   background-image: url("/assets/images/home/bg_banner.jpg");
   background-repeat: no-repeat;
@@ -472,6 +523,46 @@ h1, h2, h3, h4, h5, h6 {
 .home__providers-item:hover {
   background-color: #8a9da7;
   color: #fff;
+}
+.home__places {
+  padding: 4rem 0;
+}
+.home__places h2 {
+  text-align: center;
+  color: #8b009f;
+  margin-bottom: 2rem;
+}
+.home__places .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  max-width: 1280px;
+}
+.home__places-item {
+  border-radius: 1rem;
+  width: 300px;
+  margin: 1rem;
+}
+.home__places-item img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 0.5rem;
+}
+.home__places-item .title {
+  color: #8b009f;
+  font-size: 1rem;
+  margin-top: 0.5rem;
+}
+.home__places-item .location {
+  color: #8a9da7;
+  font-size: 0.8rem;
+}
+.home__places-more {
+  text-align: center;
+  margin: 2rem 0;
+  color: #8a9da7;
 }
 
 /*# sourceMappingURL=app.css.map */

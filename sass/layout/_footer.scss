@@ -1,0 +1,45 @@
+.footer{
+    background-color: #eff3f5;
+    padding: 2rem 0;
+    &__menu{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        border-top: solid 1px $purple;
+        border-bottom: solid 1px $purple;
+        padding: 1rem 0;
+        &-logo{
+            img{
+                width: 280px;
+                display: block;
+            }
+        }
+        &-nav{
+            a{
+                text-decoration: none;
+                margin: 0 0.5rem;
+                color: $purple;
+            }
+        }
+        &-rss{
+            a{
+                text-decoration: none;
+                font-size: 1.5rem;
+                margin-left: 1rem;
+            }
+        }
+    }
+    &__legals{
+        margin-top: 1rem;
+        a{
+            margin-right: 1rem;
+            text-decoration: none;
+            color: #6a6f71;
+            font-size: 0.8rem;
+            &:hover{
+                text-decoration: none;
+            }
+        }
+    }
+}
