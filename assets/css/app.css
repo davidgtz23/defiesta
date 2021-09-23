@@ -498,7 +498,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .home__banner-item {
-  background-image: url("/assets/images/home/bg_banner.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top center;
@@ -692,7 +691,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 0.5rem;
 }
 .provider__banner {
-  background-image: url("/assets/images/provider_banner.jpeg");
+  background-image: url("../../assets/images/provider_banner.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top center;
